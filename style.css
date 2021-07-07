@@ -28,6 +28,17 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+.texte h3 {
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+
+.texte h5 {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 0.8em;
+}
+
+
 .bloc {
     width: 100%;
     clear: both;
@@ -101,7 +112,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: black (255, 255, 255, .7);
 }
 
 .d-bloc button:hover {
@@ -658,11 +669,12 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black;
 }
 
 .container {
     max-width: 1000px;
+    text-align: center;
 }
 
 .hero-bloc-text {
@@ -684,7 +696,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -778,7 +790,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #364577;
 }
 
 .tc-white {
@@ -832,9 +844,22 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
-#footer li{
+#bloc-7 label {
+    font-weight: bold;
+    color: #364577;
+}
+
+
+#footer h5 { 
+    color: #F3976C;
+}
+#footer li {
     list-style-type: none;
     text-transform: capitalize;
+}
+#footer li a {
+    color:white;
+    text-align: center;
 }
 
 @media (max-width: 1024px) {
